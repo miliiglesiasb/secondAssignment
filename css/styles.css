@@ -1,58 +1,62 @@
-*{
-
-margin:0;
-padding: 0;
-box-sizing: border-box;
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 html {
-
-    font-size: 10px;
-
+  font-size: 10px;
 }
 body {
-
-background-color: beige;
-color: #333;
-
-font-size: 2em ;
-
+  background-color: beige;
+  color: #333;
+  font-size: 2em;
 }
 
-h1 { font-size: 3rem;
-padding: 0.5em 0;
+h1 {
+  font-size: 4rem;
+  padding: 0.5em;
+  font-style: italic;
 }
 
-div { font-size: 2em;
-border: 2px ridge #942626;
-width: 30%;
-text-align: center;
-border-radius: 10px;
-display: inline-block;
-box-shadow: 2px 2px 3px rgb(148, 38, 38, 0.5);
-margin: 10px
+
+header{
+  background-color: #b0b9bd;
+  text-align: center;
+  padding: 10px;
+  height: 150px;
 }
 
-p { font-size: 0.5em;}
+div {
+  font-size: 1.1em;
+  border: 2px ridge #4d5786;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 2px 2px 3px rgba(145, 163, 171, 0.5);
+  margin: 15px;
+}
 
-h2 {
-    font-style: italic;
+main {
+  height: 320px;
+}
+
+p {
+  font-size: 0.7em;
+  margin: 5px;
 }
 
 .dark {
-background-color: #333;
-color: white;
-
-
+  background-color: #333;
+  color: white;
 }
 
-button{
-    border : none;
-    background-color: #dccfcf;
-    padding: 2px;
-    font-weight: bold;
-    margin-bottom: 1em;
+button {
+  border: none;
+  background-color: #d8e661;
+  padding: 5px;
+  font-weight: bold;
+  margin: 1em;
+  border-radius: 5px;
 }

@@ -1,3 +1,3 @@
-[    {"name" : "Mili", "age": 21, "career": "Design"},
-     {"name" : "Feli", "age": 27, "career": "Engineering"},
-     {"name" : "Marti", "age": 25, "career": "Psychology"}    ]
+[    {"city" : "Bariloche", "knownFor": "A stunning city surrounded by lakes, forests and the Andes Mountains", "provincia": "Río Negro"},
+     {"city" : "Mendoza", "knownFor": "A beautiful city famous for its vineyards, local wines and views of the Andes", "provincia": "Mendoza"},
+     {"city" : "Ushuaia", "knownFor": "A unique city surrounded by mountains, forests and spectacular southern landscapes", "provincia": "Tierra del Fuego"}    ]
